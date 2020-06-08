@@ -6,7 +6,7 @@ import dash_html_components as html
 import pandas as pd
 
 app = dash.Dash(__name__)
-server = app.server
+# server = app.server
 
 df = pd.read_csv('datafiles/SampleCSV.csv')
 
